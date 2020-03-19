@@ -60,7 +60,7 @@
 
 * ______________
 
-## __Team Members__:
+## <span style="text-decoration: underline">Team Members:</span>
 
 * Lincoln Youree:
   - Scrum Master
