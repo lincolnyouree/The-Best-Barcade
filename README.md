@@ -62,4 +62,13 @@
 
 ## Team Members:
 
-* ______________
+* Lincoln Youree
+  - Scrum Master
+  - GitHub Manager
+  - Documenter
+
+* Alanna Celentano
+  - Database Manager
+
+* Melony Segnit
+  - Designer
