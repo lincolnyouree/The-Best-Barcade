@@ -60,15 +60,15 @@
 
 * ______________
 
-## Team Members:
+## _Team Members_:
 
-* Lincoln Youree
+* Lincoln Youree:
   - Scrum Master
   - GitHub Manager
   - Documenter
 
-* Alanna Celentano
+* Alanna Celentano:
   - Database Manager
 
-* Melony Segnit
+* Melony Segnit:
   - Designer
