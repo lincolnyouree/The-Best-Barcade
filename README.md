@@ -60,15 +60,15 @@
 
 * ______________
 
-## <span style="text-decoration: underline">Team Members:</span>
+## _Team Members_:
 
-* Lincoln Youree:
+* __Lincoln Youree__:
   - Scrum Master
   - GitHub Manager
   - Documenter
 
-* Alanna Celentano:
+* __Alanna Celentano__:
   - Database Manager
 
-* Melony Segnit:
+* __Melony Segnit__:
   - Designer
