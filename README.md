@@ -32,13 +32,15 @@
 
 # User Experience: 
 
-## User Persona #1:
+* _____________
 
-* ______________
+## _User Persona #1_:
 
-## User Persona #2:
+* Mario is the main character and protagonist of the long-running and highly successful Mario franchise. He is more of an influencer than a gamer. He enjoys making surprise appearances at local bars in Austin to check out the games and mingle with fans. 
 
-* ______________
+## _User Persona #2_:
+
+* Luigi is Mario's younger, taller twin brother and the deuteragonist of the Mario franchise. Throughout his life, he has lived in Mario's shadow, developing both cowardly and heroic tendencies. While his brother socializes at various events, you can usually find Luigi in a dark corner enjoying a lager and leveling up on Pac-Man.
 
 ## Minimum Viable Product:
 
