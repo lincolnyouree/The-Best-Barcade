@@ -1,36 +1,36 @@
-# The Best Barcade
+# __The Best Barcade__
 
 * Click [here]() to view The Best Barcade app!
 
-## Trello:
+## _Trello_:
 
 * Click [here]() to view the Trello board. 
 
-## Motivation:
+## _Motivation_:
 
 * ___________
 
-## Wireframe:
+## _Wireframe_:
 
 ![Wireframe]()
 
-## ERD:
+## _ERD_:
 
 ![Wireframe]()
 
-## Prototype:
+## _Prototype_:
 
 ![Wireframe]()
 
-## Pitch Deck:
+## _Pitch Deck_:
 
 ![Wireframe]()
 
-## Finished App Screenshots:
+## _Finished App Screenshots_:
 
 ![Wireframe]()
 
-# User Experience: 
+# __User Experience__: 
 
 * _____________
 
@@ -42,23 +42,23 @@
 
 * Luigi is Mario's younger, taller twin brother and the deuteragonist of the Mario franchise. Throughout his life, he has lived in Mario's shadow, developing both cowardly and heroic tendencies. While his brother socializes at various events, you can usually find Luigi in a dark corner enjoying a lager and leveling up on Pac-Man.
 
-## Minimum Viable Product:
+## __Minimum Viable Product__:
 
 * ______________
 
-## Pseudocode:
+## __Pseudocode__:
 
 * ______________
 
-## Stretch Goals:
+## _Stretch Goals_:
 
 * ______________
 
-## Technology Implemented:
+## _Technology Implemented_:
 
 * ______________
 
-## Credits:
+## _Credits_:
 
 * ______________
 
