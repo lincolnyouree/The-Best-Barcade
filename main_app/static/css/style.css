@@ -2,4 +2,6 @@ body {
     background-color: cornflowerblue;
     font-size: 50px;
     color: purple;
+    border-radius: 40px;
+    margin-top: auto;
 }
