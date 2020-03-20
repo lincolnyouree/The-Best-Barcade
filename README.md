@@ -4,7 +4,7 @@
 
 ## _Trello_:
 
-* Click [here]() to view the Trello board. 
+* Click [here](https://trello.com/b/o3Ybyxxe/the-best-barcade-group-project) to view the Trello board. 
 
 ## _Motivation_:
 
