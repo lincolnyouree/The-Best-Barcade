@@ -23,6 +23,8 @@ class Game(models.Model):
     comments = models.TextField(max_length=250)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
 
+    def __str__(self):
+        return self.name
 
 class Bar(models.Model):
     name = models.CharField(max_length=100)
@@ -30,3 +32,6 @@ class Bar(models.Model):
     price_range = models.CharField(max_length=10)
     has_food = models.BooleanField
     games = models.ForeignKey(Game, on_delete=models.CASCADE)
+
+    def __str__(self):
+        return self.name
