@@ -10,17 +10,17 @@
 
 * ___________
 
-## _Wireframe_:
-
-![Wireframe]()
-
 ## _ERD_:
 
 ![Wireframe](https://i.imgur.com/Rr8KFng.jpg)
 
-## _Prototype_:
+## _Wireframe_:
 
 ![Wireframe](https://i.imgur.com/HVv5rS2.png)
+
+## _Prototype_:
+
+![Wireframe](https://i.imgur.com/utdOhs1.jpg)
 
 ## _Pitch Deck_:
 
