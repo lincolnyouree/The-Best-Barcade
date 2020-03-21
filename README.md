@@ -20,7 +20,7 @@
 
 ## _Prototype_:
 
-![Wireframe]()
+![Wireframe](https://i.imgur.com/HVv5rS2.png)
 
 ## _Pitch Deck_:
 
