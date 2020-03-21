@@ -8,7 +8,7 @@
 
 ## _Motivation_:
 
-* ___________
+* WE LOVE ARCADE GAMES. The Best Barcade app is a way for us to find and keep track of which bars have games, the price and condition of those games, and to make notes on the bars that have them.  
 
 ## _ERD_:
 
