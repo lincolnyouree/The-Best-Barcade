@@ -7,6 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
   <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
   <title>The Best Barcade</title>
 </head>
@@ -23,7 +24,7 @@
     <li><a href="">View All My Games</a></li>
     <li><a href="">View All Bars</a></li>
     <li><a href="">Add a Bar</a></li>
-    <li><a href="">Add a Game</a></li>
+    <li><a href={% url 'games_create' %}>Add a Game</a></li>
     <li><a href="{% url 'logout' %}">Log Out</a></li>
   {% else %}
     <li><a href="{% url 'signup' %}">Sign Up</a></li>
