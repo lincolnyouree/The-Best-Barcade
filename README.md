@@ -10,6 +10,25 @@
 
 * WE LOVE ARCADE GAMES. The Best Barcade app is a way for us to find and keep track of which bars have games, the price and condition of those games, and to make notes on the bars that have them.  
 
+______________________________________________
+
+## _Pitch Deck_:
+
+![Wireframe](https://i.imgur.com/fpJUmZV.png) 
+![Wireframe](https://i.imgur.com/9HvNZag.png) 
+![Wireframe](https://i.imgur.com/nl3IxpY.png) 
+![Wireframe](https://i.imgur.com/SjbadbU.png)
+![Wireframe](https://i.imgur.com/SSOlx6c.png) 
+![Wireframe](https://i.imgur.com/pgvKC63.png)
+![Wireframe](https://i.imgur.com/vSvgK7A.png) 
+![Wireframe](https://i.imgur.com/6RiXeLh.png)
+![Wireframe](https://i.imgur.com/eLeERhN.png) 
+![Wireframe](https://i.imgur.com/pzPBF67.png)
+![Wireframe](https://i.imgur.com/lHr5u93.png) 
+![Wireframe](https://i.imgur.com/l4e4OkP.png)
+
+______________________________________________
+
 ## _ERD_:
 
 ![Wireframe](https://i.imgur.com/Rr8KFng.jpg)
@@ -22,18 +41,11 @@
 
 ![Wireframe](https://i.imgur.com/utdOhs1.jpg)
 
-## _Pitch Deck_:
-
-![Wireframe](https://i.imgur.com/fpJUmZV.png) ![Wireframe](https://i.imgur.com/9HvNZag.png) 
-![Wireframe](https://i.imgur.com/nl3IxpY.png) ![Wireframe](https://i.imgur.com/SjbadbU.png)
-![Wireframe](https://i.imgur.com/SSOlx6c.png) ![Wireframe](https://i.imgur.com/pgvKC63.png)
-![Wireframe](https://i.imgur.com/vSvgK7A.png) ![Wireframe](https://i.imgur.com/6RiXeLh.png)
-![Wireframe](https://i.imgur.com/eLeERhN.png) ![Wireframe](https://i.imgur.com/pzPBF67.png)
-![Wireframe](https://i.imgur.com/lHr5u93.png) ![Wireframe](https://i.imgur.com/l4e4OkP.png)
-
 ## _Finished App Screenshots_:
 
 ![Wireframe]()
+
+______________________________________________
 
 # __User Experience__: 
 
@@ -46,6 +58,8 @@
 ## _User Persona #2_:
 
 * Luigi is Mario's younger, taller twin brother and the deuteragonist of the Mario franchise. Throughout his life, he has lived in Mario's shadow, developing both cowardly and heroic tendencies. While his brother socializes at various events, you can usually find Luigi in a dark corner enjoying a lager and leveling up on Pac-Man.
+
+______________________________________________
 
 ## __Minimum Viable Product__:
 
@@ -61,6 +75,8 @@
 ## __Pseudocode__:
 
 * ______________
+
+______________________________________________
 
 ## _Stretch Goals_:
 
