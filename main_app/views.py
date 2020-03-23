@@ -27,7 +27,7 @@ def games_index(request):
 
 def bars_index(request):
   bars = Bar.objects.all()
-  return render(request, 'main_app/bar_index.html', {'bars': bars})
+  return render(request, 'bars/bar_index.html', {'bars': bars})
 
 
 def signup(request):
@@ -59,3 +59,7 @@ class BarCreate(LoginRequiredMixin, CreateView):
   def form_valid(self, form):
     form.instance.user = self.request.user
     return super().form_valid(form)
+
+def bar_details(request, bar_id):
+  bar = Bar.objects.get(id=bar_id)
+  return render(request, 'bars/bar_details.html', {'bar': bar})
