@@ -25,6 +25,10 @@ def games_index(request):
     # form.instance.user = self.request.user 
     # return super().form_valid(form)
 
+def bars_index(request):
+  bars = Bar.objects.all()
+  return render(request, 'main_app/bar_index.html', {'bars': bars})
+
 
 def signup(request):
   error_message = ''
@@ -40,10 +44,18 @@ def signup(request):
   context = {'form': form, 'error_message': error_message}
   return render(request, 'registration/signup.html', context)
 
-class GameCreate(LoginRequiredMixin, CreateView):
-  model = Game
-  fields = ['name', 'price', 'number_of_players', 'condition', 'comments']
-  success_url = '/games/'
+def add_game(request, bar_id):
+  form = BarForm(request.POST)
+  if form.is_valid():
+    new_game = game.save(commit=False)
+    new_game.bar_id = bar_id
+    new_game.save()
+  return redirect('detail', game_id=game_id)
+
+class BarCreate(LoginRequiredMixin, CreateView):
+  model = Bar
+  fields = ['name', 'location', 'price_range', 'has_food']
+  success_url = '/bars/'
   def form_valid(self, form):
     form.instance.user = self.request.user
     return super().form_valid(form)

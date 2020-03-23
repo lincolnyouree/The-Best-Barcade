@@ -6,5 +6,8 @@ urlpatterns = [
     path('about/', views.about, name='about'),
     path('games/', views.games_index, name='games'),
     path('accounts/signup/', views.signup, name='signup'),  
-    path('games/create/', views.GameCreate.as_view(), name='games_create'), 
+    path('bars/', views.bars_index, name='bars'),
+    path('bars/bars_create', views.BarCreate.as_view(), name='bars_create'),
+    
+    path('games/<int:bar_id>/add_game/', views.add_game, name='add_game'),
 ]
