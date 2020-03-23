@@ -9,7 +9,6 @@
 ## _Motivation_:
 
 * WE LOVE ARCADE GAMES. The Best Barcade app is a way for us to find and keep track of which bars have games, the price and condition of those games, and to make notes on the bars that have them.  
-
 ______________________________________________
 
 ## _Pitch Deck_:
@@ -58,7 +57,6 @@ ______________________________________________
 ## _User Persona #2_:
 
 * Luigi is Mario's younger, taller twin brother and the deuteragonist of the Mario franchise. Throughout his life, he has lived in Mario's shadow, developing both cowardly and heroic tendencies. While his brother socializes at various events, you can usually find Luigi in a dark corner enjoying a lager and leveling up on Pac-Man.
-
 ______________________________________________
 
 ## __Minimum Viable Product__:
