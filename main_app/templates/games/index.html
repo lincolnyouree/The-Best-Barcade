@@ -1,5 +1,12 @@
-Games go here
-{%for game in games%}
-{{game.name}}
+{% extends 'base.html'%}
 
-{%endfor%}
+{% block content %}
+
+<h1>All Games</h1>
+
+    {%for game in games%}
+        {{game.name}}
+
+    {% endfor %}
+
+{% endblock %}
