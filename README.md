@@ -44,7 +44,14 @@
 
 ## __Minimum Viable Product__:
 
-* ______________
+* As a User, I should be able to see games that have been added to the site. 
+* As a User, I should be able to sign up for an account and login to my account.
+* As a User, I should be able to see the details of a game (price, condition, etc.).
+* As a User, I should be able to add a game to my favorites list.
+* As a User, I should be able to edit the details of a game I have added. 
+* As a User, I should be able to upload an image to a game I have added.
+* As a User, I should be able to delete a game from my favorites list. 
+* As a User, I should be able to log out of my account.
 
 ## __Pseudocode__:
 
