@@ -1,7 +1,68 @@
-body {
-    background-color: cornflowerblue;
-    font-size: 50px;
-    color: purple;
-    border-radius: 40px;
-    margin-top: auto;
+
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+    font-family: 'Press Start 2P', cursive;
+    background-color:black;
+    color: #fff;
+    font-weight: 700;
+  }
+  main {
+    flex: 1 0 auto;
+  }
+
+  footer.page-footer {
+    padding-top: 0;
+    text-align: right;
+  }
+
+.container {
+    width: 30%;
+    margin: 100px;
 }
+.title {
+    font-family: 'Saira', sans-serif;
+    display: block;
+    position: relative;
+    font-size: 100px;
+    background: linear-gradient(to bottom, #00f2ff 0%, #e2fbff 50%, #0a343f 51%, #0094f7 100%);
+    background-blend-mode: multiply;
+    background-size: 10px 100px;
+    background-repeat: repeat;
+    line-height: 1;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+h1::before {
+    background: none;
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 2;
+    background-image: url('https://i.imgur.com/Ym9HCsT.gif');
+    background-blend-mode: screen;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    opacity: 0.5;
+}
+h1::after {
+    background: none;
+    content: attr(data-text);
+    position: absolute;
+    left: 0;
+    top: 0;
+    text-shadow: 1px -1px 0 rgba(255, 255, 255, 0.5), 3px 1px 3px rgba(255, 0, 255, 0.85), -3px -2px 3px rgba(0, 0, 255, 0.85), 1px -2px 0 rgba(255, 255, 255, 0.8);
+    z-index: -2;
+}
+
+img {
+    width: 64px;
+    height: 64px;
+}
+
+.nav-wrapper {
+    background-color: rgba(32, 32, 32);
+}
+ 
