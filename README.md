@@ -82,7 +82,12 @@ ______________________________________________
 
 ## _Technology Implemented_:
 
-* ______________
+* Python
+* Django
+* HTML
+* CSS
+* Materialize 
+* Amazon AWS S3 
 
 ## _Credits_:
 
