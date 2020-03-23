@@ -44,13 +44,15 @@ def signup(request):
   context = {'form': form, 'error_message': error_message}
   return render(request, 'registration/signup.html', context)
 
-def add_game(request, bar_id):
-  form = BarForm(request.POST)
-  if form.is_valid():
-    new_game = game.save(commit=False)
-    new_game.bar_id = bar_id
-    new_game.save()
-  return redirect('detail', game_id=game_id)
+class GameCreate(LoginRequiredMixin, CreateView):
+  model = Game
+  fields = ['name', 'price', 'number_of_players', 'condition', 'comments']
+  success_url = '/games/'
+  def form_valid(self, form):
+    form.instance.user = self.request.user
+    # url params are available as a kwarg on self as follows
+    form.instance.bar_id = self.kwargs['bar_id']
+    return super().form_valid(form)
 
 class BarCreate(LoginRequiredMixin, CreateView):
   model = Bar
