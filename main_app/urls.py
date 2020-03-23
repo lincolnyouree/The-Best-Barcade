@@ -9,5 +9,7 @@ urlpatterns = [
     path('bars/', views.bars_index, name='bars'),
     path('bars/bars_create', views.BarCreate.as_view(), name='bars_create'),
     path('bars/<int:bar_id>/', views.bar_details, name='bar_details'),
-    path('bars/<int:bar_id>/create_game', views.GameCreate.as_view(), name='games_create')
+    path('bars/<int:bar_id>/create_game', views.GameCreate.as_view(), name='games_create'),
+    path('games/<int:game_id>/add_photo/', views.add_photo, name='add_photo'),
+    path('games/<int:game_id>', views.game_details, name='game_details'),
 ]
