@@ -48,8 +48,6 @@ ______________________________________________
 
 # __User Experience__: 
 
-* _____________
-
 ## _User Persona #1_:
 
 * Mario is the main character and protagonist of the long-running and highly successful Mario franchise. He is more of an influencer than a gamer. He enjoys making surprise appearances at local bars in Austin to check out the games and mingle with fans. 
