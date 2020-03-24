@@ -1,7 +1,7 @@
 import uuid
 import boto3
 from django.shortcuts import render, redirect
-from django.views.generic.edit import CreateView
+from django.views.generic.edit import CreateView, DeleteView
 from django.contrib.auth import login
 from django.contrib.auth.forms import UserCreationForm
 from django.contrib.auth.decorators import login_required
@@ -67,6 +67,11 @@ class BarCreate(LoginRequiredMixin, CreateView):
     form.instance.user = self.request.user
     return super().form_valid(form)
 
+class BarDelete(LoginRequiredMixin, DeleteView):
+  model = Bar
+  success_url = '/bars/'
+
+
 def bar_details(request, bar_id):
   bar = Bar.objects.get(id=bar_id)
   return render(request, 'bars/bar_details.html', {'bar': bar})
@@ -93,3 +98,7 @@ def add_photo(request, game_id):
 def game_details(request, game_id):
   game = Game.objects.get(id=game_id)
   return render(request, 'games/detail.html', {'game': game})
+
+class GameDelete(LoginRequiredMixin, DeleteView):
+  model = Game
+  success_url = '/games/'

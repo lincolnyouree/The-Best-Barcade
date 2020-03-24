@@ -20,6 +20,7 @@
                 {{ game_form.as_p }}
                 <input type="submit" class="btn" value="Add Game">
             </form>
+          <a href="{% url 'bars_delete' bar.id %}">Delete</a>
         </div>
       </div>
     </div>
