@@ -23,13 +23,11 @@
   {% if user.is_authenticated %}
     <li><a href=" {% url 'games' %}">View All My Games</a></li>
     <li><a href="{% url 'bars' %}">View All Bars</a></li>
-    <li><a href="{% url ''%} ">Add a Game</a></li>
     <li><a href="{% url 'bars_create' %}">Add a Bar</a></li>
     <li><a href="{% url 'logout' %}">Log Out</a></li>
   {% else %}
     <li><a href="{% url 'signup' %}">Sign Up</a></li>
     <li><a href="{% url 'login' %}">Log In</a></li>
-    <li><a href="">View All Games</a></li>
   {% endif %}
 </ul>
 </div>
