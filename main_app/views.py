@@ -8,7 +8,7 @@ from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 from .models import Game, Bar, Photo
 
-S3_BASE_URL = 'https://s3-us-west-1.amazonaws.com/'
+S3_BASE_URL = 'https://s3-us-east-2.amazonaws.com/'
 BUCKET = 'thebestestbarcadeapp'
 # Create your views here.
 
