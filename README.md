@@ -70,8 +70,14 @@ ______________________________________________
 
 ## __Pseudocode__:
 
-* ______________
-
+* Click button to sign up for account. 
+* Click button to login to my profile.
+* View games that have been added on landing page.
+* Click button to add game to favorites list.
+* Click button to update game details.
+* Click button to upload image to game details. 
+* Click button to delete game from favorites list.
+* Click button to logout of my profile. 
 ______________________________________________
 
 ## _Stretch Goals_:
