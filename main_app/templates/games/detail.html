@@ -16,6 +16,25 @@
     <br><br>
     <input type="submit" class="btn" value="Upload Photo">
 </form>
- 
+
+<h1>Game Details</h1>
+
+<div class="row">
+    <div class="col s12 m6">
+      <div class="card blue-grey darken-1">
+        <div class="card-content white-text">
+          <span class="card-title">{{bar.name}}</span>
+          <p>Bar: {{game.bar.name}}</p>
+          <p>Price: {{game.price}}</p>
+          <p>Number of Players: {{game.players}}</p>
+          <p>Condition: {{game.condition}}</p>
+          <p>Comments: {{game.comments}}</p>
+        </div>
+        <div class="card-action">
+        <div class="col s6">
+        </div>
+      </div>
+    </div>
+  </div>
 
 {% endblock %}
