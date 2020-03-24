@@ -22,6 +22,8 @@ class Bar(models.Model):
     def __str__(self):
         return self.name
 
+    def get_absolute_url(self):
+        return reverse('bar_details', kwargs={'bar_id': self.id})
 
 class Game(models.Model):
     name = models.CharField(max_length=100)
@@ -35,10 +37,12 @@ class Game(models.Model):
     bar = models.ForeignKey(Bar, on_delete=models.CASCADE)
     comments = models.TextField(max_length=250)
     user = models.ForeignKey(User, on_delete=models.CASCADE)
-    
 
     def __str__(self):
         return self.name
+
+    def get_absolute_url(self):
+        return reverse('game_details', kwargs={'game_id': self.id})
 
 class Photo(models.Model):
     url = models.CharField(max_length=200)
