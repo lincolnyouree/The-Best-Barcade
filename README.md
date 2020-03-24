@@ -82,7 +82,8 @@ ______________________________________________
 
 ## _Stretch Goals_:
 
-* ______________
+* Ability to search for games and bars by name.
+* Mobile responsiveness. 
 
 ## _Technology Implemented_:
 
