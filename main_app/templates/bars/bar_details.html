@@ -27,4 +27,10 @@
     </div>
   </div>
 
+  {% for game in games %}
+    {% if game.bar.id == bar.id %}
+      <a href="{% url 'game_details' game.id %}">{{game.name}}</a>
+    {% endif %}
+  {% endfor %}
+
 {% endblock %}

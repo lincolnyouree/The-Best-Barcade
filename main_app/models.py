@@ -13,10 +13,20 @@ CONDITIONS = (
     ('5', 'Excellent')
 )
 
+PRICE = (
+    ('1', '$'),
+    ('2', '$$'),
+    ('3', '$$$')
+)
+
 class Bar(models.Model):
     name = models.CharField(max_length=100)
     location = models.CharField(max_length=200)
-    price_range = models.CharField(max_length=10)
+    price_range = models.CharField(
+        max_length=1,
+        choices=PRICE,
+        default=PRICE[0][0]
+    )
     has_food = models.BooleanField()
 
     def __str__(self):

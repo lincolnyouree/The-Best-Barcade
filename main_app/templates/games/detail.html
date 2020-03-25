@@ -2,6 +2,7 @@
 
 {% block content %}
 
+
 <h1>{{game.name}}</h1>
 
 
@@ -17,7 +18,6 @@
     <input type="submit" class="btn" value="Upload Photo">
 </form>
 
-<h1>Game Details</h1>
 
 <div class="row">
     <div class="col s12 m6">
@@ -26,7 +26,7 @@
           <span class="card-title">{{bar.name}}</span>
           <p>Bar: {{game.bar.name}}</p>
           <p>Price: {{game.price}}</p>
-          <p>Number of Players: {{game.players}}</p>
+          <p>Number of Players: {{game.number_of_players}}</p>
           <p>Condition: {{game.condition}}</p>
           <p>Comments: {{game.comments}}</p>
         </div>
