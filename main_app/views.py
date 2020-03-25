@@ -73,11 +73,12 @@ class BarDelete(LoginRequiredMixin, DeleteView):
 
 class BarUpdate(LoginRequiredMixin, UpdateView):
   model = Bar
-  fields = '__all__'
+  fields = ['name', 'location', 'price_range', 'has_food']
 
 def bar_details(request, bar_id):
+  games = Game.objects.all()
   bar = Bar.objects.get(id=bar_id)
-  return render(request, 'bars/bar_details.html', {'bar': bar})
+  return render(request, 'bars/bar_details.html', {'bar': bar, 'games': games})
 
 def add_photo(request, game_id):
     # photo-file will be the "name" attribute on the <input type="file">
