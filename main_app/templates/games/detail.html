@@ -27,7 +27,18 @@
           <p>Bar: {{game.bar.name}}</p>
           <p>Price: {{game.price}}</p>
           <p>Number of Players: {{game.number_of_players}}</p>
-          <p>Condition: {{game.condition}}</p>
+          <p>Condition: </p>
+          {% if game.condition == 1 %} 
+            <p>Unplayable</p>
+          {% elif game.condition == 2 %} 
+            <p>Poor</p>
+          {% elif game.condition == 3 %} 
+            <p>Acceptable</p>
+          {% elif game.condition == 4 %} 
+            <p>Good</p>
+          {% else %} 
+            <p>Excellent</p>
+          {% endif %}
           <p>Comments: {{game.comments}}</p>
         </div>
         <div class="card-action">

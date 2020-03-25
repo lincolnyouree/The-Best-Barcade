@@ -10,7 +10,14 @@
         <div class="card-content white-text">
           <span class="card-title">{{bar.name}}</span>
           <p>Location: {{bar.location}}</p>
-          <p>Price Range: {{bar.price_range}}</p>
+          <p>Price Range: </p>
+            {% if bar.price_range == 1%}
+            <p>$</p>
+            {% elif bar.price_range == 2%}
+            <p>$$</p>
+            {% else %}
+            <p>$$$</p>
+            {% endif %}
           <p>Food?: {{bar.has_food}}</p>
         </div>
         <div class="card-action">

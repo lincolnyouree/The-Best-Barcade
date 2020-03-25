@@ -65,6 +65,8 @@ class BarCreate(LoginRequiredMixin, CreateView):
   success_url = '/bars/'
   def form_valid(self, form):
     form.instance.user = self.request.user
+    print("form here: ")
+    print(form.instance.has_food)
     return super().form_valid(form)
 
 class BarDelete(LoginRequiredMixin, DeleteView):
