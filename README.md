@@ -1,6 +1,6 @@
 # __The Best Barcade__
 
-* Click [here]() to view The Best Barcade app!
+* Click [here](https://thebestbarcade.herokuapp.com/) to view The Best Barcade app!
 
 ## _Trello_:
 
