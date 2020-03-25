@@ -83,6 +83,8 @@ ______________________________________________
 ## _Stretch Goals_:
 
 * Ability to search for games and bars by name.
+* Ability to delete photos. 
+* Ability to add and remove games from favorites list.
 * Mobile responsiveness. 
 
 ## _Technology Implemented_:
