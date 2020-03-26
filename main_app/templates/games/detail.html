@@ -3,7 +3,9 @@
 {% block content %}
 
 
-<h1>{{game.name}}</h1>
+<div class="container">
+    <h1 class="title" data-text="{{game.name}}">{{game.name}}</h1>
+</div>
 
 
 {% for photo in game.photo_set.all %}
