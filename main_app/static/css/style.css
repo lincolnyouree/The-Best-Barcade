@@ -82,4 +82,6 @@ input {
   color: white;
 }
 
- 
+h2 {
+  margin-top: 100vh;
+}
