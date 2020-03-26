@@ -1,5 +1,7 @@
 # __The Best Barcade__
 
+![Wireframe](https://i.imgur.com/vhybyy9.png) 
+
 * Click [here](https://thebestbarcade.herokuapp.com/) to view The Best Barcade app!
 
 ## _Trello_:
@@ -42,7 +44,10 @@ ______________________________________________
 
 ## _Finished App Screenshots_:
 
-![Wireframe]()
+![Wireframe](https://i.imgur.com/WURm3Fz.png)
+![Wireframe](https://i.imgur.com/CpFv3k8.png)
+![Wireframe](https://i.imgur.com/tnz5aqZ.png)
+![Wireframe](https://i.imgur.com/umQXhYJ.png)
 
 ______________________________________________
 
@@ -112,3 +117,5 @@ ______________________________________________
 
 * __Melony Segnit__:
   - Designer
+
+![Wireframe](https://i.imgur.com/vhybyy9.png)
