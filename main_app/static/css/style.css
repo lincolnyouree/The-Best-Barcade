@@ -97,15 +97,30 @@ img {
 input {
   font-family: 'Press Start 2P', cursive;
   color: white;
-  font-size: 60px;
+  font-size: 18px;
 }
 
-  table {
+table {
   color: white;
   width: 60%;
   font-size: 60px;
   font-family: 'Press Start 2P', cursive;
   margin-left: 100px;
   }
+  
+a {
+  color: rgb(250, 216, 166);
+  }
+
+label {
+  font-size: 20px;
+  color: white;
+  }
+
+#has_food {
+  margin-top: -100px;
+ }  
+
+
 
 
