@@ -28,6 +28,7 @@ class Bar(models.Model):
         default=PRICE[0][0]
     )
     has_food = models.BooleanField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
 
     def __str__(self):
         return self.name
