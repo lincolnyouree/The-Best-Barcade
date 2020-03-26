@@ -13,12 +13,7 @@
 {% empty %}
     <div class="card-panel teal-text center-align">No Photos Uploaded</div>
 {% endfor %}
-<form action="{% url 'add_photo' game.id %}" enctype="multipart/form-data" method="POST" class="card-panel">
-    {% csrf_token %}
-    <input type="file" name="photo-file">
-    <br><br>
-    <input type="submit" class="btn waves-effect waves-teal" value="Upload Photo">
-</form>
+
 
 
 <div class="row">
@@ -47,8 +42,15 @@
         <div class="col s6">
         </div>
       </div>
-    </div>
+        <a href="{% url 'games_update' game.id %}">Update</a>
+        <a href="{% url 'games_delete' game.id %}">Delete</a>
+    </div> 
   </div>
-   <a href="{% url 'games_update' game.id %}">Update</a>
-   <a href="{% url 'games_delete' game.id %}">Delete</a>
+      <form action="{% url 'add_photo' game.id %}" enctype="multipart/form-data" method="POST">
+    {% csrf_token %}
+    <input type="file" name="photo-file" class="photoupload">
+    <br><br>
+    <input type="submit" class="btn waves-effect waves-teal" value="Upload Photo">
+</form>
+   
 {% endblock %}
