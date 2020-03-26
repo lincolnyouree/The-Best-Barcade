@@ -29,8 +29,12 @@
                 {{ game_form.as_p }}
                 <input type="submit" class="btn waves-effect waves-teal" value="Add Game">
             </form>
+            {% if user == bar.user %}
           <a href="{% url 'bars_update' bar.id %}">Update</a>
           <a href="{% url 'bars_delete' bar.id %}">Delete</a>
+            {% else %}
+              <p></p>
+            {% endif %}
         </div>
       </div>
     </div>
