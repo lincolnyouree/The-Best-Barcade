@@ -1,12 +1,4 @@
 
-html, body, {
-  position:fixed;
-  top:0;
-  bottom:0;
-  left:0;
-  right:0;
-}
-
 body {
   display: flex;
   min-height: 100vh;
@@ -42,9 +34,6 @@ footer.page-footer {
   width: 100vw;
 }
 
-.container {
-
-}
 
 .title {
   font-family: 'Saira', sans-serif;
@@ -59,8 +48,7 @@ footer.page-footer {
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
   margin-top: 100px;
-  margin-left: 20vw;
-  
+  margin-left: 12vw;
 }
 
 h1::before {
@@ -75,9 +63,8 @@ h1::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.5;
-
-  
 }
+
 h1::after {
   background: none;
   content: attr(data-text);
@@ -116,21 +103,33 @@ table {
   font-size: 60px;
   font-family: 'Press Start 2P', cursive;
   margin-left: 100px;
-  }
+}
   
 a {
   color: rgb(250, 216, 166);
-  }
+}
 
 label {
   font-size: 20px;
   color: white;
-  }
+}
 
 #has_food {
   margin-top: -100px;
- }  
+}  
 
+.row {
+  text-align: center;
+}
 
+.add {
+  display: flex;
+  justify-content: center;
+}
 
-
+.image {
+  border: solid white 3px;
+  width: 400px;
+  height: auto;
+  display: center;
+}
