@@ -95,11 +95,11 @@ img {
   font-size: 100px;
 }
 
-input {
-  font-family: 'Press Start 2P', cursive;
+table {
   color: white;
-}
+  width: 60%;
+  font-size: 60px;
+  font-family: 'Press Start 2P', cursive;
+  }
 
-h2 {
-  margin-top: 100vh;
-}
+
