@@ -87,19 +87,25 @@ img {
   background-color: rgba(32, 32, 32);
 }
 
-
 .input-field label {
   pointer-events: auto;
   font-family: 'Press Start 2P', cursive;
   color: white;
-  font-size: 100px;
+  font-size: 60px;
 }
 
-table {
+input {
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+  font-size: 60px;
+}
+
+  table {
   color: white;
   width: 60%;
   font-size: 60px;
   font-family: 'Press Start 2P', cursive;
+  margin-left: 100px;
   }
 
 

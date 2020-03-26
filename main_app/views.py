@@ -80,7 +80,7 @@ class BarUpdate(LoginRequiredMixin, UpdateView):
 def bar_details(request, bar_id):
   games = Game.objects.all()
   bar = Bar.objects.get(id=bar_id)
-  return render(request, 'bars/bar_details.html', {'bar': bar, 'games': games})
+  return render(request, 'bars/bar_details.html', {'bar': bar, 'games': games, 'user' : request.user})
 
 def add_photo(request, game_id):
     # photo-file will be the "name" attribute on the <input type="file">
