@@ -3,9 +3,13 @@
 {%block content%}
 
   {% if object %}
-    <h1>Edit <span class="teal-text">{{object.name}}</span></h1>
+    <div class="container">
+      <h1 class="title" data-text="{{object.name}}">{{object.name}}</h1>
+    </div>
   {% else %}
-    <h1>Add Bar</h1>
+    <div class="container">
+      <h1 class="title" data-text="ADD BAR">ADD BAR</h1>
+    </div>
   {% endif %}
   <form action="" method="post">
     {% csrf_token %}
