@@ -15,16 +15,16 @@
     {% csrf_token %}
     <table>
       {{ form.as_table }}
+      <tr>
       <td>
-        <tr>
           <th>
         <label for="has_food">
           <input type="checkbox" name="has_food" id="has_food">
           <span></span>
         </label>
         </th>
-        </tr>
       </td>
+        </tr>
     </table> 
     <input type="submit" value="Submit!" class="btn waves-effect waves-teal">
   </form>
