@@ -33,16 +33,21 @@ footer.page-footer {
   height: fit-content;
   background-color: rgba(32, 32, 32);
   display: inline-block;
+  margin-left: 25vw;
+}
+
+.big {
+  display: flex;
+  align-content: center;
+  width: 100vw;
 }
 
 .container {
-  width: 30%;
-  margin: 100px;
+
 }
 
 .title {
   font-family: 'Saira', sans-serif;
-  display: block;
   position: relative;
   font-size: 100px;
   background: linear-gradient(to bottom, #00f2ff 0%, #e2fbff 50%, #0a343f 51%, #0094f7 100%);
@@ -53,6 +58,9 @@ footer.page-footer {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   text-transform: uppercase;
+  margin-top: 100px;
+  margin-left: 20vw;
+  
 }
 
 h1::before {
@@ -67,6 +75,8 @@ h1::before {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   opacity: 0.5;
+
+  
 }
 h1::after {
   background: none;
