@@ -166,3 +166,8 @@ label {
   opacity: 0;
 }
 
+#game {
+  font-size: 30px;
+  text-decoration: underline;
+  display: block;
+}
