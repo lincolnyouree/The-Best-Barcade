@@ -2,22 +2,18 @@
 
 {% block content %}
 
-
 <div class="container">
     <h1 class="title" data-text="{{game.name}}">{{game.name}}</h1>
 </div>
 
-
-
-
 <div class="row">
-    <div class="col s6 offset-s3 valign">
-      <div class="card indigo">
-        {% for photo in game.photo_set.all %}
-          <img class="image" src="{{photo.url}}">
-        {% empty %}
-          <div class="card-panel teal-text center-align">No Photos Uploaded</div>
-        {% endfor %}
+  <div class="col s6 offset-s3 valign">
+    <div class="card indigo">
+      {% for photo in game.photo_set.all %}
+        <img class="image" src="{{photo.url}}">
+      {% empty %}
+        <div class="card-panel teal-text center-align">No Photos Uploaded</div>
+      {% endfor %}
         <div class="card-content white-text">
           <span class="card-title">{{bar.name}}</span>
           <p>Bar: {{game.bar.name}}</p>
@@ -38,20 +34,20 @@
           <p>Comments: {{game.comments}}</p>
         </div>
         <div class="card-action">
-        <div class="col s6">
+          <div class="col s6">
+          </div>
         </div>
-      </div>
         <a href="{% url 'games_update' game.id %}">Update</a>
         <a href="{% url 'games_delete' game.id %}">Delete</a>
     </div> 
   </div>
-  {% if user.is_authenticated %}
-    <form action="{% url 'add_photo' game.id %}" enctype="multipart/form-data" method="POST">
-      {% csrf_token %}
-      <input type="file" name="photo-file" class="photoupload">
-      <br><br>
-      <input type="submit" class="btn waves-effect waves-teal" value="Upload Photo">
-    </form>
-  {% endif %}
-   
+{% if user.is_authenticated %}
+  <form action="{% url 'add_photo' game.id %}" enctype="multipart/form-data" method="POST">
+    {% csrf_token %}
+    <input type="file" name="photo-file" class="photoupload">
+    <br><br>
+    <input type="submit" class="btn waves-effect waves-teal" value="Upload Photo">
+  </form>
+{% endif %}
+
 {% endblock %}

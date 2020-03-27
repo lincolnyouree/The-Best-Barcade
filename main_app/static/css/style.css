@@ -114,7 +114,7 @@ textarea {
 }
   
 a {
-  color: rgb(250, 216, 166);
+  color: #ffAB40;
 }
 
 label {
@@ -145,15 +145,17 @@ label {
 .footer {
   width: 15%;
   height: auto;
-  margin-top: 20px;
+  margin-top: 25px;
   float: left;
+  position: relative;
 }
 
 .copy {
-  margin-top: 25px;
+  margin-top: 22px;
   margin-bottom: 30px;
   padding-bottom: 30px;
   float: right;
+  position: relative;
 }
 
 .form-error-message {
