@@ -45,11 +45,12 @@
         <a href="{% url 'games_delete' game.id %}">Delete</a>
     </div> 
   </div>
+          {% if user.is_authenticated %}
       <form action="{% url 'add_photo' game.id %}" enctype="multipart/form-data" method="POST">
     {% csrf_token %}
     <input type="file" name="photo-file" class="photoupload">
     <br><br>
     <input type="submit" class="btn waves-effect waves-teal" value="Upload Photo">
 </form>
-   
+          {% endif %}
 {% endblock %}
