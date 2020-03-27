@@ -12,38 +12,42 @@
         <div class="card-content white-text">
           <span class="card-title"></span>
           <p>Location: {{bar.location}}</p>
-          <p>Price Range: </p>
+          <p>Price Range:
             {% if bar.price_range == 1%}
-            <p>$</p>
+            $</p>
             {% elif bar.price_range == 2%}
-            <p>$$</p>
+            $$</p>
             {% else %}
-            <p>$$$</p>
+            $$$</p>
             {% endif %}
           <p>Food?: {{bar.has_food}}</p>
+          <br>
+          {% if user == bar.user %}
+            <a href="{% url 'bars_update' bar.id %}">Update</a>
+            <a href="{% url 'bars_delete' bar.id %}">Delete</a>
+          </div>
+              {% else %}
+            <p></p>
+          {% endif %}
         </div>
         <div class="card-action">
-        <div class="col s6">
+          <div class="col s6">
             <form action="{% url 'games_create' bar.id %}" method="post">
                 {% csrf_token %}
                 {{ game_form.as_p }}
                 <input type="submit" class="btn waves-effect waves-teal" value="Add Game">
             </form>
-            {% if user == bar.user %}
-          <a href="{% url 'bars_update' bar.id %}">Update</a>
-          <a href="{% url 'bars_delete' bar.id %}">Delete</a>
-            {% else %}
-              <p></p>
-            {% endif %}
+            <div>
+            {% for game in games %}
+              {% if game.bar.id == bar.id %}
+                <a href="{% url 'game_details' game.id %}">{{game.name}}</a>
+              {% endif %}
+            {% endfor %}
+            </div>
         </div>
       </div>
     </div>
   </div>
-  {% for game in games %}
-    {% if game.bar.id == bar.id %}
-      <a href="{% url 'game_details' game.id %}">{{game.name}}</a>
-    {% endif %}
-  {% endfor %}
 
 
 {% endblock %}

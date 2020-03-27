@@ -2,11 +2,12 @@
 
 {% block content %}
 
+<br><br><br>
 <div class="container">
     
-<h4>Are you sure you want to delete <span class="teal-text">{{ object.name }}</span>?</h4>
+  <h4>Are you sure you want to delete {{ object.name }}?</h4>
 
-<form action="" method="POST">
+  <form action="" method="POST">
     {% csrf_token %}
     <input type="submit" value="Yes - Delete!" class="btn waves-effect waves-teal">
     <a href="{% url 'bar_details' bar.id %}">Cancel</a>
