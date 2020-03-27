@@ -101,7 +101,9 @@ ______________________________________________
 * HTML
 * CSS
 * Materialize 
+* Postgresql
 * Amazon AWS S3 
+* Heroku
 
 ## _Credits_:
 
