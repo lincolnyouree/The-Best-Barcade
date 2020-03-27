@@ -99,7 +99,7 @@ def add_photo(request, game_id):
             photo.save()
         except:
             print('An error occurred uploading file to S3')
-    return redirect('games/detail.html', game_id=game_id)
+    return redirect('detail', game_id=game_id)
 
 def game_details(request, game_id):
   game = Game.objects.get(id=game_id)
