@@ -9,6 +9,7 @@ body {
   font-weight: 700;
   background-image: url('https://i.imgur.com/RTBN6DM.png');
   background-size: cover;
+  position: absolute;
 }
   
 main {
@@ -82,6 +83,8 @@ img {
 
 .nav-wrapper {
   background-color: rgba(32, 32, 32);
+  position: fixed;
+  z-index: 500;
 }
 
 .input-field label {
@@ -100,9 +103,15 @@ input {
 table {
   color: white;
   width: 60%;
-  font-size: 60px;
+  font-size: 30px;
   font-family: 'Press Start 2P', cursive;
   margin-left: 100px;
+}
+
+textarea {
+  color: white;
+  font-size: 20px;
+  font-family: 'Press Start 2P', cursive;
 }
   
 a {
@@ -133,3 +142,26 @@ label {
   height: auto;
   display: center;
 }
+
+.footer {
+  width: 15%;
+  height: auto;
+  margin-top: 20px;
+  float: left;
+}
+
+.copy {
+  margin-top: 25px;
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  float: right;
+}
+
+.form-error-message {
+  display: none;
+}
+
+.errorlist {
+  opacity: 0;
+}
+

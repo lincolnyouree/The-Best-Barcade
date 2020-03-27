@@ -24,11 +24,7 @@ def games_index(request):
     return render(request, 'games/index.html', {'games': games})
 
 
-#@login_required
-#Add to create function to attach to certain user
-# def form_valid(self, form):
-    # form.instance.user = self.request.user 
-    # return super().form_valid(form)
+
 
 def bars_index(request):
   bars = Bar.objects.all()
@@ -82,24 +78,21 @@ def bar_details(request, bar_id):
   bar = Bar.objects.get(id=bar_id)
   return render(request, 'bars/bar_details.html', {'bar': bar, 'games': games, 'user' : request.user})
 
+
+@login_required
 def add_photo(request, game_id):
-    # photo-file will be the "name" attribute on the <input type="file">
     photo_file = request.FILES.get('photo-file', None)
     if photo_file:
         s3 = boto3.client('s3')
-        # need a unique "key" for S3 / needs image file extension too
         key = uuid.uuid4().hex[:6] + photo_file.name[photo_file.name.rfind('.'):]
-        # just in case something goes wrong
         try:
             s3.upload_fileobj(photo_file, BUCKET, key)
-            # build the full url string
             url = f"{S3_BASE_URL}{BUCKET}/{key}"
-            # we can assign to cat_id or cat (if you have a cat object)
             photo = Photo(url=url, game_id=game_id)
             photo.save()
         except:
             print('An error occurred uploading file to S3')
-    return redirect('games/detail.html', game_id=game_id)
+    return redirect('game_details', game_id=game_id)
 
 def game_details(request, game_id):
   game = Game.objects.get(id=game_id)
