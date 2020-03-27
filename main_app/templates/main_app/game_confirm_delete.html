@@ -4,13 +4,13 @@
 
 <br><br><br>
 <div class="container">
-<h4>Are you sure you want to delete {{ object.name }}?</h4>
+  <h4>Are you sure you want to delete {{ object.name }}?</h4>
 
-<form action="" method="POST">
+  <form action="" method="POST">
     {% csrf_token %}
     <input type="submit" value="Yes - Delete!" class="btn waves-effect waves-teal">
     <a href="{% url 'game_details' game.id %}">Cancel</a>
   </form>
 </div>
 
-  {% endblock %}
+{% endblock %}

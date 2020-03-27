@@ -2,22 +2,22 @@
 
 {%block content%}
 
-  {% if object %}
-    <div class="container">
-      <h1 class="title" data-text="{{object.name}}">{{object.name}}</h1>
-    </div>
-  {% else %}
-    <div class="container">
-      <h1 class="title" data-text="ADD GAME">ADD GAME</h1>
-    </div>
-  {% endif %}
-  <form action="" method="post">
-    {% csrf_token %}
-    <table>
-      {{ form.as_table }}
-    </table>
-    <input type="submit" value="Submit!" class="btn waves-effect waves-teal">
-  </form>
+{% if object %}
+  <div class="container">
+    <h1 class="title" data-text="{{object.name}}">{{object.name}}</h1>
+  </div>
+{% else %}
+  <div class="container">
+    <h1 class="title" data-text="ADD GAME">ADD GAME</h1>
+  </div>
+{% endif %}
+<form action="" method="post">
+  {% csrf_token %}
+  <table>
+    {{ form.as_table }}
+  </table>
+  <input type="submit" value="Submit!" class="btn waves-effect waves-teal">
+</form>
 
 <script>
   var selectEl = document.getElementById('id_condition');
