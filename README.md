@@ -4,13 +4,15 @@
 
 * Click [here](https://thebestbarcade.herokuapp.com/) to view The Best Barcade app!
 
+______________________________________________
+
 ## _Trello_:
 
 * Click [here](https://trello.com/b/o3Ybyxxe/the-best-barcade-group-project) to view the Trello board. 
 
 ## _Motivation_:
 
-* WE LOVE ARCADE GAMES. The Best Barcade is a way for us to keep track of the games we love and the local haunts that have them.    
+* WE LOVE ARCADE GAMES. The Best Barcade is a way for us to keep track of the games we love and the local haunts that have them...    
 ______________________________________________
 
 ## _Pitch Deck_:
@@ -104,6 +106,8 @@ ______________________________________________
 ## _Credits_:
 
 * Background Images: [wallpaperaccess.com ](https://wallpaperaccess.com/)
+* Joystick Image: [clipart-libary.com ](http://clipart-library.com/)
+* Pac-Man Image: [kindpng.com](https://www.kindpng.com/) 
 
 ## _Team Members_:
 
