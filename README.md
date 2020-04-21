@@ -1,4 +1,4 @@
-# __The Best Barcade__
+# __The Best Barcade (Group Project)__
 
 ![Wireframe](https://i.imgur.com/vhybyy9.png) 
 
@@ -12,7 +12,7 @@ ______________________________________________
 
 ## _Motivation_:
 
-* WE LOVE ARCADE GAMES. The Best Barcade is a way for us to keep track of the games we love and the local haunts that have them...    
+* WE LOVE ARCADE GAMES. The Best Barcade is a way for us to keep track of the games we love and the local haunts that house them.
 ______________________________________________
 
 ## _Pitch Deck_:
@@ -74,24 +74,13 @@ ______________________________________________
 * As a User, I should be able to upload an image to a game I have added.
 * As a User, I should be able to delete a game from my favorites list. 
 * As a User, I should be able to log out of my account.
-
-## __Pseudocode__:
-
-* Click button to sign up for account. 
-* Click button to login to my profile.
-* View games that have been added on landing page.
-* Click button to add game to favorites list.
-* Click button to update game details.
-* Click button to upload image to game details. 
-* Click button to delete game from favorites list.
-* Click button to logout of my profile. 
 ______________________________________________
 
 ## _Stretch Goals_:
 
+* Ability to add and remove games from favorites list.
 * Ability to search for games and bars by name.
 * Ability to delete photos. 
-* Ability to add and remove games from favorites list.
 * Mobile responsiveness. 
 
 ## _Technology Implemented_:
@@ -123,5 +112,7 @@ ______________________________________________
 
 * __Melony Segnit__:
   - Designer
+  
+
 
 ![Wireframe](https://i.imgur.com/vhybyy9.png)
