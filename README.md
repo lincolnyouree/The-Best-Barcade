@@ -4,32 +4,12 @@
 
 * Click [here](https://thebestbarcade.herokuapp.com/) to view The Best Barcade app!
 
-______________________________________________
-
-## _Trello_:
-
 * Click [here](https://trello.com/b/o3Ybyxxe/the-best-barcade-group-project) to view the Trello board. 
+______________________________________________
 
 ## _Motivation_:
 
 * WE LOVE ARCADE GAMES. The Best Barcade is a way for us to keep track of the games we love and the local haunts that house them.
-______________________________________________
-
-## _Pitch Deck_:
-
-![Wireframe](https://i.imgur.com/fpJUmZV.png) 
-![Wireframe](https://i.imgur.com/9HvNZag.png) 
-![Wireframe](https://i.imgur.com/nl3IxpY.png) 
-![Wireframe](https://i.imgur.com/SjbadbU.png)
-![Wireframe](https://i.imgur.com/SSOlx6c.png) 
-![Wireframe](https://i.imgur.com/pgvKC63.png)
-![Wireframe](https://i.imgur.com/vSvgK7A.png) 
-![Wireframe](https://i.imgur.com/6RiXeLh.png)
-![Wireframe](https://i.imgur.com/eLeERhN.png) 
-![Wireframe](https://i.imgur.com/pzPBF67.png)
-![Wireframe](https://i.imgur.com/lHr5u93.png) 
-![Wireframe](https://i.imgur.com/l4e4OkP.png)
-
 ______________________________________________
 
 ## _ERD_:
@@ -50,7 +30,6 @@ ______________________________________________
 ![Wireframe](https://i.imgur.com/CpFv3k8.png)
 ![Wireframe](https://i.imgur.com/tnz5aqZ.png)
 ![Wireframe](https://i.imgur.com/umQXhYJ.png)
-
 ______________________________________________
 
 # __User Experience__: 
@@ -82,6 +61,7 @@ ______________________________________________
 * Ability to search for games and bars by name.
 * Ability to delete photos. 
 * Mobile responsiveness. 
+______________________________________________
 
 ## _Technology Implemented_:
 
@@ -93,12 +73,14 @@ ______________________________________________
 * Postgresql
 * Amazon AWS S3 
 * Heroku
+______________________________________________
 
 ## _Credits_:
 
 * Background Images: [wallpaperaccess.com ](https://wallpaperaccess.com/)
 * Joystick Image: [clipart-libary.com ](http://clipart-library.com/)
 * Pac-Man Image: [kindpng.com](https://www.kindpng.com/) 
+______________________________________________
 
 ## _Team Members_:
 
@@ -113,6 +95,6 @@ ______________________________________________
 * __Melony Segnit__:
   - Designer
   
-
+______________________________________________
 
 ![Wireframe](https://i.imgur.com/vhybyy9.png)
